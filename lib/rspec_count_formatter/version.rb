@@ -1,3 +1,3 @@
-module RspecCountFormatter
-  VERSION = "0.1.0"
+class RspecCountFormatter
+  VERSION = "0.1.1"
 end
