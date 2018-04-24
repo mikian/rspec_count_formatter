@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
   spec.name          = 'rspec_count_formatter'
-  spec.version       = RspecCountFormatter::VERSION
+  spec.version       = '0.1.2'
   spec.authors       = ['Mikko Kokkonen']
   spec.email         = ['mikko@mikian.com']
 
