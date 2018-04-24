@@ -1,7 +1,6 @@
 
 lib = File.expand_path('lib', __dir__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'rspec_count_formatter/version'
 
 Gem::Specification.new do |spec|
   spec.name          = 'rspec_count_formatter'

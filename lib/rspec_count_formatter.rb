@@ -1,9 +1,9 @@
-require 'rspec_count_formatter/version'
-
 require 'rspec/core'
 require 'rspec/core/formatters/base_text_formatter'
 
 class RspecCountFormatter < RSpec::Core::Formatters::BaseTextFormatter
+  VERSION = '0.1.1'
+  
   RSpec::Core::Formatters.register self,
                                    :example_failed,
                                    :example_passed,
