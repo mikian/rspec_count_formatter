@@ -39,7 +39,7 @@ class RspecCountFormatter < RSpec::Core::Formatters::BaseTextFormatter
   private
 
   def status(example)
-    done = [@passed, @pending, @failed].sum
+    done = (@passed + @pending + @failed)
     @width ||= @total.to_s.length
 
     output.puts format("%#{@width}<done>d / %#{@width}<total>d: %<example>s",
